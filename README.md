@@ -23,9 +23,9 @@ O padrão Command é um padrão comportamental que permite encapsular uma solici
 
 Principais características:
 
-Desacoplamento entre o objeto que invoca a ação e o objeto que executa a ação.
-Suporte para desfazer e refazer operações.
-Facilita a adição de novas operações sem modificar o código existente.
+  - Desacoplamento entre o objeto que invoca a ação e o objeto que executa a ação.
+  - Suporte para desfazer e refazer operações.
+  - Facilita a adição de novas operações sem modificar o código existente.
 
 ### Sem o Padrão Command
 
@@ -137,9 +137,9 @@ O padrão Strategy é um padrão comportamental que define uma família de algor
 
 Principais características:
 
-Permite que o comportamento de um objeto seja alterado em tempo de execução.
-Facilita a adição de novos algoritmos sem alterar o código existente.
-Cada algoritmo é encapsulado em uma classe separada, mantendo o código limpo e modular.
+  - Permite que o comportamento de um objeto seja alterado em tempo de execução.
+  - Facilita a adição de novos algoritmos sem alterar o código existente.
+  - Cada algoritmo é encapsulado em uma classe separada, mantendo o código limpo e modular.
 
 ### Sem o Padrão Strategy
 
