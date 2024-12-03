@@ -284,6 +284,4 @@ priorityManager.applyStrategy(tasks);
 
 ## 7. Conclusões 🎯
 
-- Os padrões **Command** e **Strategy** aumentam a flexibilidade e a modularidade do código.
-- Embora eficazes, devem ser usados com parcimônia para evitar complexidade desnecessária.
-- Aplicações práticas incluem desde sistemas simples até soluções robustas em jogos e APIs corporativas.
+Os padrões Command e Strategy aumentam a flexibilidade e a modularidade do código. Embora eficazes, devem ser usados com cuidado para evitar complexidade desnecessária. Aplicações práticas incluem desde sistemas simples até soluções robustas em jogos e APIs corporativas.
