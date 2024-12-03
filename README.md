@@ -19,6 +19,14 @@
 
 ## 2. Padrão Command 🔧
 
+O padrão Command é um padrão comportamental que permite encapsular uma solicitação como um objeto, permitindo que você parametrize clientes com diferentes requisições, enfileire ou registre solicitações e forneça suporte a operações de desfazer (undo) ou refazer (redo). Em vez de invocar diretamente uma ação em um objeto, o comando é passado como um objeto, o que aumenta a flexibilidade no tratamento das ações.
+
+Principais características:
+
+Desacoplamento entre o objeto que invoca a ação e o objeto que executa a ação.
+Suporte para desfazer e refazer operações.
+Facilita a adição de novas operações sem modificar o código existente.
+
 ### Sem o Padrão Command
 
 ```typescript
@@ -124,6 +132,14 @@ taskManager.undoLastCommand();
 ---
 
 ## 3. Padrão Strategy 🧠
+
+O padrão Strategy é um padrão comportamental que define uma família de algoritmos, encapsula cada um deles e torna-os intercambiáveis. O padrão permite que o algoritmo varie independentemente dos clientes que o utilizam, promovendo flexibilidade e separação de responsabilidades.
+
+Principais características:
+
+Permite que o comportamento de um objeto seja alterado em tempo de execução.
+Facilita a adição de novos algoritmos sem alterar o código existente.
+Cada algoritmo é encapsulado em uma classe separada, mantendo o código limpo e modular.
 
 ### Sem o Padrão Strategy
 
