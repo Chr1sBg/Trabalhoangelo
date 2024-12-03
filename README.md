@@ -12,7 +12,7 @@
   - 🔄 **Comportamentais**: Comunicação e interação entre objetos.
 
 ### Foco do Trabalho
-- Vamos explorar os padrões comportamentais **Command** e **Strategy**.
+- Explorar os padrões comportamentais **Command** e **Strategy**.
 - Aplicações práticas e comparações. 👨‍💻
 
 ---
@@ -282,6 +282,24 @@ priorityManager.applyStrategy(tasks);
 
 ---
 
-## 7. Conclusões 🎯
+## 7. Comparação ⚖️
+
+| 🛠️ **Característica**      | 🎮 **Command**                            | 🧠 **Strategy**                          |
+|----------------------------|-------------------------------------------|------------------------------------------|
+| **🎯 Propósito**           | Encapsular ações como objetos.            | Trocar algoritmos dinamicamente.         |
+| **🔗 Separação**           | Cliente ↔ Executor                        | Contexto ↔ Algoritmo                     |
+| **🧩 Aplicação**           | Gerenciar comandos (undo/redo).           | Variação de comportamentos.              |
+| **💡 Exemplo**             | Botão que executa comandos específicos.    | Sistema que alterna entre métodos de cálculo. |
+| **⚙️ Flexibilidade**       | Focado em comandos e execução.             | Focado em variações de comportamento.    |
+
+---
+
+## 🌟 Resumo
+- O padrão **Command** é ideal para gerenciar ações e comandos, promovendo flexibilidade e funcionalidades como desfazer/refazer.
+- O padrão **Strategy** é perfeito para variar algoritmos de forma dinâmica, tornando o sistema mais adaptável e modular.
+
+---
+
+## 8. Conclusões 🎯
 
 Os padrões Command e Strategy aumentam a flexibilidade e a modularidade do código. Embora eficazes, devem ser usados com cuidado para evitar complexidade desnecessária. Aplicações práticas incluem desde sistemas simples até soluções robustas em jogos e APIs corporativas.
